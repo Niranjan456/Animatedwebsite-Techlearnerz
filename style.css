@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/background.png);
+    background-size: 120%;
+    overflow: hidden;
+}
+
+#city{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 400px;
+    width: 120%;
+}
+
+#earth{
+    position: absolute;
+    right: -10%;
+    bottom: -10%;
+    height: 600px;
+    z-index: -1;
+}
+
+#logo{
+    position: absolute;
+    top: 4%;
+    right: 7%;
+    height: 60px;
+}
+
+.navbar{
+    width: 50px;
+    height: 100vh;
+    position: absolute;
+    left: 0%;
+    background: linear-gradient(#05012773,#000729);
+}
+
+#menu{
+    position: absolute;
+    left: 10%;
+    height: 30px;
+    top: 4%;
+}
+
+#facebook{
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+#instagram{
+    height: 30px;
+    position: absolute;
+    top: 47%;
+    left: 10%;
+}
+
+#twitter{
+    height: 30px;
+    position: absolute;
+    top: 54%;
+    left: 10%;
+}
+
+#info{
+    height: 30px;
+    position: absolute;
+    bottom: 3%;
+    left: 10%;
+}
+
+#astronaut{
+    position: absolute;
+    height: 400px;
+    right: 3%;
+    bottom: 10%;
+}
+
+.btn1{
+    height: 40px;
+    width: 140px;
+    position: absolute;
+    left: 7%;
+    border-radius: 20px;
+    top: 4%;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Roboto Slab', serif;
+    transition: 0.2s ease-in-out;
+}
+
+.btn1:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.text-box{
+    color: white;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: 24%;
+    top: 48%;
+    z-index: -1;
+}
+
+.small-txt{
+    position: absolute;
+    top: 12%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.text{
+    font-size: 79px;
+    letter-spacing: 7px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /* filter: blur(2px); */
+}
+
+#stars img{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    animation: animate 10s infinite linear;
+    top: -150px;
+    z-index: -1;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(0) rotate(0deg);
+    }
+
+    100%{
+        transform: translateY(1000px) rotate(720deg);
+    }
+    }
+
+
+    #stars img:nth-child(1){
+        left: 25%;
+        width: 10px;
+        height: 10px;
+        animation-delay: 0s;
+        z-index: -1;
+    }
+    
+    #stars img:nth-child(2){
+        left: 10%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 2s;
+        animation-duration: 12s;
+    }
+    
+    #stars img:nth-child(3){
+        left: 70%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 4s;
+        z-index: -1;
+    }
+    
+    #stars img:nth-child(4){
+        left: 40%;
+        width: 13px;
+        height: 13px;
+        animation-delay: 0s;
+        animation-duration: 18s;
+    }
+    
+    #stars img:nth-child(5){
+        left: 65%;
+        width: 24px;
+        height: 24px;
+        animation-delay: 0s;
+        z-index: -1;
+    }
+    
+    #stars img:nth-child(6){
+        left: 75%;
+        width: 20px;
+        height: 20px;
+        animation-delay: 3s;
+    }
+    
+    #stars img:nth-child(7){
+        left: 35%;
+        width: 18px;
+        height: 18px;
+        animation-delay: 7s;
+        z-index: -1;
+    }
+    
+    #stars img:nth-child(8){
+        left: 50%;
+        width: 26px;
+        height: 26px;
+        animation-delay: 15s;
+        animation-duration: 45s;
+    }
+    
+    #stars img:nth-child(9){
+        left: 20%;
+        width: 15px;
+        height: 15px;
+        animation-delay: 2s;
+        animation-duration: 35s;
+        z-index: -1;
+    }
+    
+    #stars img:nth-child(10){
+        left: 85%;
+        width: 19px;
+        height: 19px;
+        animation-delay: 0s;
+        animation-duration: 11s;
+    }
+    
